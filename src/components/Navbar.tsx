@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
-import { Leaf } from "lucide-react";
+import { Code2 } from "lucide-react";
 
 export function Navbar() {
   const navItems = ["Home", "About", "Services", "Contact"];
@@ -17,7 +17,7 @@ export function Navbar() {
           animate={{ opacity: 1 }}
           className="flex items-center gap-2"
         >
-          <Leaf className="h-8 w-8 text-primary" />
+          <Code2 className="h-8 w-8 text-primary" />
           <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
             mitrakerjaku.id
           </span>

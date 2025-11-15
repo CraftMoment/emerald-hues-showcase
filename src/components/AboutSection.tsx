@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { ParallaxSection } from "./ParallaxSection";
-import { Target, Users, TrendingUp } from "lucide-react";
+import { Code, Users, Laptop } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const stats = [
-  { icon: Target, label: "Proyek Selesai", value: "150+" },
-  { icon: Users, label: "Klien Puas", value: "200+" },
-  { icon: TrendingUp, label: "Tingkat Kepuasan", value: "95%" },
+  { icon: Code, label: "Proyek Selesai", value: "4" },
+  { icon: Users, label: "Klien Puas", value: "2" },
+  { icon: Laptop, label: "Tingkat Kepuasan", value: "100%" },
 ];
 
 export function AboutSection() {
