@@ -4,9 +4,9 @@ import { Target, Users, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const stats = [
-  { icon: Target, label: "Projects Completed", value: "150+" },
-  { icon: Users, label: "Happy Clients", value: "200+" },
-  { icon: TrendingUp, label: "Growth Rate", value: "95%" },
+  { icon: Target, label: "Proyek Selesai", value: "150+" },
+  { icon: Users, label: "Klien Puas", value: "200+" },
+  { icon: TrendingUp, label: "Tingkat Kepuasan", value: "95%" },
 ];
 
 export function AboutSection() {
@@ -22,10 +22,10 @@ export function AboutSection() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              About <span className="text-primary">EcoTech</span>
+              Tentang <span className="text-primary">mitrakerjaku.id</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Leading the way in sustainable technology solutions since 2020
+              Mitra transformasi digital terpercaya sejak 2020
             </p>
           </motion.div>
         </ParallaxSection>
@@ -58,9 +58,11 @@ export function AboutSection() {
             className="max-w-3xl mx-auto text-center"
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We believe in the power of technology to create positive environmental impact. Our team
-              of dedicated professionals works tirelessly to develop innovative solutions that not
-              only meet business needs but also contribute to a sustainable future for our planet.
+              Kami percaya bahwa transformasi digital tidak harus rumit. Tim profesional kami
+              bekerja untuk mengembangkan solusi inovatif yang tidak hanya memenuhi kebutuhan
+              bisnis Anda, tetapi juga mudah digunakan dan memberikan hasil nyata. Dari website
+              profesional hingga aplikasi bisnis yang kompleks, kami siap menjadi mitra
+              terpercaya dalam perjalanan digital Anda.
             </p>
           </motion.div>
         </ParallaxSection>
