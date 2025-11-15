@@ -18,12 +18,12 @@ export function Navbar() {
           className="flex items-center gap-2"
         >
           <Leaf className="h-8 w-8 text-primary" />
-          <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
-            EcoTech
+          <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
+            mitrakerjaku.id
           </span>
         </motion.div>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6 lg:gap-8">
           {navItems.map((item, index) => (
             <motion.a
               key={item}

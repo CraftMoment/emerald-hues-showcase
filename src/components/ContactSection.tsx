@@ -7,9 +7,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "hello@ecotech.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-  { icon: MapPin, label: "Address", value: "123 Green Street, Eco City" },
+  { icon: Mail, label: "Email", value: "hello@mitrakerjaku.id" },
+  { icon: Phone, label: "Telepon", value: "+62 812-3456-7890" },
+  { icon: MapPin, label: "Alamat", value: "Jakarta, Indonesia" },
 ];
 
 export function ContactSection() {
@@ -25,10 +25,10 @@ export function ContactSection() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Get in <span className="text-primary">Touch</span>
+              Hubungi <span className="text-primary">Kami</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Ready to start your sustainable journey? Let's talk!
+              Siap memulai transformasi digital? Mari berbicara!
             </p>
           </motion.div>
         </ParallaxSection>
@@ -42,19 +42,19 @@ export function ContactSection() {
               transition={{ duration: 0.8 }}
             >
               <Card className="p-8 border-2">
-                <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
+                <h3 className="text-2xl font-bold mb-6">Kirim Pesan</h3>
                 <form className="space-y-4">
                   <div>
-                    <Input placeholder="Your Name" className="h-12" />
+                    <Input placeholder="Nama Anda" className="h-12" />
                   </div>
                   <div>
-                    <Input type="email" placeholder="Your Email" className="h-12" />
+                    <Input type="email" placeholder="Email Anda" className="h-12" />
                   </div>
                   <div>
-                    <Textarea placeholder="Your Message" rows={5} />
+                    <Textarea placeholder="Pesan Anda" rows={5} />
                   </div>
                   <Button size="lg" className="w-full shadow-elegant hover:shadow-glow transition-all duration-300">
-                    Send Message
+                    Kirim Pesan
                   </Button>
                 </form>
               </Card>
@@ -98,7 +98,7 @@ export function ContactSection() {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="pt-6"
               >
-                <h4 className="font-bold mb-4">Follow Us</h4>
+                <h4 className="font-bold mb-4">Ikuti Kami</h4>
                 <div className="flex gap-4">
                   {["Twitter", "LinkedIn", "Instagram"].map((social) => (
                     <Button key={social} variant="outline" size="sm" className="hover:bg-primary hover:text-primary-foreground transition-all duration-300">

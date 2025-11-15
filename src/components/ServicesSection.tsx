@@ -6,23 +6,23 @@ import { Card } from "@/components/ui/card";
 const services = [
   {
     icon: Leaf,
-    title: "Green Solutions",
-    description: "Eco-friendly technology solutions that reduce carbon footprint and promote sustainability.",
+    title: "Pembuatan Website",
+    description: "Website profesional dan responsif yang memperkuat kehadiran digital bisnis Anda.",
   },
   {
     icon: Zap,
-    title: "Energy Optimization",
-    description: "Smart systems to optimize energy consumption and reduce operational costs.",
+    title: "Aplikasi Bisnis",
+    description: "Aplikasi custom yang dirancang khusus untuk mengoptimalkan proses bisnis Anda.",
   },
   {
     icon: Recycle,
-    title: "Circular Economy",
-    description: "Implementing circular economy principles in business processes and product lifecycle.",
+    title: "Solusi Kerja Digital",
+    description: "Sistem manajemen dan workflow digital yang meningkatkan produktivitas tim.",
   },
   {
     icon: Cloud,
-    title: "Cloud Infrastructure",
-    description: "Sustainable cloud solutions powered by renewable energy sources.",
+    title: "Konsultasi IT",
+    description: "Pendampingan strategis untuk transformasi digital dan implementasi teknologi.",
   },
 ];
 
@@ -39,10 +39,10 @@ export function ServicesSection() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Our <span className="text-primary">Services</span>
+              Layanan <span className="text-primary">Kami</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive solutions for a sustainable digital transformation
+              Solusi digital lengkap untuk transformasi bisnis Anda
             </p>
           </motion.div>
         </ParallaxSection>
