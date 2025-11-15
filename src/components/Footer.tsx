@@ -1,4 +1,4 @@
-import { Leaf } from "lucide-react";
+import { Code2 } from "lucide-react";
 
 export function Footer() {
   return (
@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-            <Leaf className="h-6 w-6 text-primary" />
+            <Code2 className="h-6 w-6 text-primary" />
             <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">
               mitrakerjaku.id
             </span>

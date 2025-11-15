@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
 import { ParallaxSection } from "./ParallaxSection";
-import { Leaf, Zap, Recycle, Cloud } from "lucide-react";
+import { Globe, Smartphone, Workflow, HeadphonesIcon } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const services = [
   {
-    icon: Leaf,
+    icon: Globe,
     title: "Pembuatan Website",
     description: "Website profesional dan responsif yang memperkuat kehadiran digital bisnis Anda.",
   },
   {
-    icon: Zap,
+    icon: Smartphone,
     title: "Aplikasi Bisnis",
     description: "Aplikasi custom yang dirancang khusus untuk mengoptimalkan proses bisnis Anda.",
   },
   {
-    icon: Recycle,
+    icon: Workflow,
     title: "Solusi Kerja Digital",
     description: "Sistem manajemen dan workflow digital yang meningkatkan produktivitas tim.",
   },
   {
-    icon: Cloud,
+    icon: HeadphonesIcon,
     title: "Konsultasi IT",
     description: "Pendampingan strategis untuk transformasi digital dan implementasi teknologi.",
   },
