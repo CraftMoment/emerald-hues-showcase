@@ -397,6 +397,11 @@ export function PricingSection() {
                     className="w-full"
                     variant={plan.popular ? "default" : "outline"}
                     size="lg"
+                    onClick={() => {
+                      const packageLabel = packageTypes.find(p => p.id === selectedPackage)?.label || "";
+                      const message = `Halo, saya ingin order paket ${plan.name} untuk ${packageLabel} dengan harga Rp ${plan.price}`;
+                      window.open(`https://wa.me/6283838812841?text=${encodeURIComponent(message)}`, '_blank');
+                    }}
                   >
                     Order Sekarang
                   </Button>
@@ -417,7 +422,15 @@ export function PricingSection() {
             *Harga dapat disesuaikan berdasarkan kebutuhan spesifik proyek Anda
           </p>
           <div className="pt-4">
-            <Button size="lg" variant="outline" className="group">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="group"
+              onClick={() => {
+                const message = "Halo, saya ingin tanya harga khusus / custom package untuk kebutuhan saya";
+                window.open(`https://wa.me/6283838812841?text=${encodeURIComponent(message)}`, '_blank');
+              }}
+            >
               💬 Tanya Harga Khusus / Custom Package
               <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
             </Button>
