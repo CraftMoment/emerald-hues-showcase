@@ -82,11 +82,20 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button size="lg" className="group text-lg shadow-elegant hover:shadow-glow transition-all duration-300">
+            <Button 
+              size="lg" 
+              className="group text-lg shadow-elegant hover:shadow-glow transition-all duration-300"
+              onClick={() => window.open('https://wa.me/6283838812841?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20layanan%20digital', '_blank')}
+            >
               Mulai Konsultasi
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="text-lg border-2">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-lg border-2"
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Lihat Layanan
             </Button>
           </motion.div>
