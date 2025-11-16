@@ -57,13 +57,22 @@ export function AboutSection() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl mx-auto text-center"
           >
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               Kami percaya bahwa transformasi digital tidak harus rumit. Tim profesional kami
               bekerja untuk mengembangkan solusi inovatif yang tidak hanya memenuhi kebutuhan
               bisnis Anda, tetapi juga mudah digunakan dan memberikan hasil nyata. Dari website
               profesional hingga aplikasi bisnis yang kompleks, kami siap menjadi mitra
               terpercaya dalam perjalanan digital Anda.
             </p>
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6">
+              <h3 className="text-2xl font-bold mb-3 text-primary">SEO-Optimized Solutions</h3>
+              <p className="text-muted-foreground">
+                Setiap website yang kami buat dioptimalkan untuk mesin pencari (SEO) agar bisnis Anda 
+                mudah ditemukan online. Kami menerapkan best practices SEO termasuk struktur kode yang 
+                clean, kecepatan loading optimal, mobile-friendly design, dan konten yang SEO-ready untuk 
+                meningkatkan ranking dan visibility bisnis Anda di Google.
+              </p>
+            </div>
           </motion.div>
         </ParallaxSection>
       </div>

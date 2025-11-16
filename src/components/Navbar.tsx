@@ -3,7 +3,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import { Code2 } from "lucide-react";
 
 export function Navbar() {
-  const navItems = ["Home", "About", "Services", "Contact"];
+  const navItems = ["Home", "About", "Services", "Pricelist", "Contact"];
 
   return (
     <motion.nav
